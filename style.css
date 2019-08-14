@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Lato";
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(zdj/food.jpg);
+}
+
+.container {
+   padding: 30px;
+   background: #761965;
+   color: #fff;
+   text-align: center;
+}
+.field {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+h1 {
+    margin-top: 0;
+    color: #fff;
+}
+button {
+    background-color: greenyellow;
+    border: none;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #c24dac;
+
+}
+
+#heightInput {
+    background-color: #f4afe7;
+    border-radius: 5px;
+}
+
+#weightInput {
+    background-color: #f4afe7;
+    border-radius: 5px;
+}
